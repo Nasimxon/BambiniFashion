@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bambini</string>
+
+    <string name="title_bottom_menu">Menu</string>
+    <string name="title_bottom_home">Home</string>
+    <string name="title_bottom_bag">Bag</string>
+    <string name="title_bottom_search">Search</string>
+    <string name="title_bottom_designers">Designers</string>
+
+    <string name="list_is_empty">List is empty</string>
+    <string name="page_is_empty">Page is empty</string>
+
+</resources>

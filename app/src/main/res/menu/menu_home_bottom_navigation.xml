@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_menu"
+        android:icon="@drawable/ic_dashboard"
+        android:orderInCategory="100"
+        android:title="@string/title_bottom_menu" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_dashboard"
+        android:orderInCategory="103"
+        android:title="@string/title_bottom_home" />
+    <item
+        android:id="@+id/navigation_bag"
+        android:icon="@drawable/ic_dashboard"
+        android:orderInCategory="104"
+        android:title="@string/title_bottom_bag" />
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_dashboard"
+        android:orderInCategory="104"
+        android:title="@string/title_bottom_search" />
+    <item
+        android:id="@+id/navigation_designers"
+        android:icon="@drawable/ic_dashboard"
+        android:orderInCategory="104"
+        android:title="@string/title_bottom_designers" />
+</menu>

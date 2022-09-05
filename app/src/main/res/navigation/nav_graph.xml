@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_menu">
+
+    <keep_state_fragment
+        android:id="@+id/navigation_menu"
+        android:name="aus.mobile.bambinitest.presentation.ui.menu.MenuFragment"
+        android:label="MenuFragment"
+        />
+    <keep_state_fragment
+        android:id="@+id/navigation_home"
+        android:name="aus.mobile.bambinitest.presentation.ui.home.HomeFragment"
+        android:label="HomeFragment"
+         />
+    <keep_state_fragment
+        android:id="@+id/navigation_bag"
+        android:name="aus.mobile.bambinitest.presentation.ui.bag.BagsFragment"
+        android:label="BagFragment"
+        />
+    <keep_state_fragment
+        android:id="@+id/navigation_search"
+        android:name="aus.mobile.bambinitest.presentation.ui.search.SearchFragment"
+        android:label="SearchFragment"
+        />
+    <keep_state_fragment
+        android:id="@+id/navigation_designers"
+        android:name="aus.mobile.bambinitest.presentation.ui.designers.DesignersFragment"
+        android:label="DesignersFragment"
+        />
+</navigation>
